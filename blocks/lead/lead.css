@@ -1,0 +1,15 @@
+.lead{
+   max-width: 1400px;
+   width: 77.1vw;
+   margin: 0 auto;
+   padding: 0;
+   box-sizing: border-box;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+.lead{width: 100%;}
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+.lead{
+   width: 100%;
+}
+}

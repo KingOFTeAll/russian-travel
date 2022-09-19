@@ -1,0 +1,14 @@
+footer__copyrigt.footer__copyrigt{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 114%;
+text-align: right;
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+.footer__copyrigt{
+   margin-top: 48px;
+   text-align: left;
+   line-height: 1;
+}
+}

@@ -1,3 +1,4 @@
+
 .page{
    min-width: 320px;
    padding-top: 28px;
@@ -40,7 +41,9 @@
    font-size: 24px;
    color: white;
 }
-.header__link:hover{text-decoration: underline;}
+.header__link_active{
+   text-decoration: underline;
+}
 .content{
    position: relative;
 }
@@ -206,7 +209,7 @@ margin-bottom: 26px;
 .place__paragraph:nth-child(2){
    margin: 0 auto;
 }
-.baikal{
+.cover__baikal{
    text-decoration: none;
    color: white;
 }
@@ -286,6 +289,9 @@ text-align: right;
    .places{
       width: 928px;
    }
+   .intro{
+      width: 87.5%;
+   }
    .place__image{width: 440px;}
    .cover{
       width: 100%;
@@ -295,7 +301,6 @@ text-align: right;
 .place{
    column-gap: 32px;
 }
-
 }
 
 
@@ -307,7 +312,7 @@ text-align: right;
 
 .intro{
    width: 93.75%;
-   margin: auto;
+   margin: 88px auto 0;
 }
 
 .photo-grid{
@@ -321,8 +326,8 @@ text-align: right;
 
 .place{
    display: inline-grid;
-   grid-template-columns: repeat(2 , 1fr);
-   grid-template-rows: 1fr 3fr;
+   grid-template-columns: 340px 352px;
+   grid-template-rows: .5fr 2.5fr;
    list-style: none;
    margin: 0;
    margin-bottom: 73px;
@@ -335,6 +340,15 @@ text-align: right;
 width: 100%;
 margin: 92px 0;
    }
+
+
+.place__title{
+   font-size: 42px;
+   line-height: 1.1;
+}
+
+
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){
