@@ -106,7 +106,7 @@ font-size: 16px;
 line-height: 1.63;
 }
 .intro__list{
-   list-style: none; 
+   list-style: none;
    padding: 0;
 }
 .intro__list-item{
@@ -383,7 +383,7 @@ text-align: right;
 
    display: inline-grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 35px 46px 1fr ;
+   grid-template-rows: 35px 46px 1fr;
    list-style: none;
    margin: 0;
    margin-bottom: 50px;
