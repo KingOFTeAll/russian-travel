@@ -165,7 +165,7 @@ line-height: 18px;
    align-self: end;
  
 }
-.place__website_heading{
+.place__website-heading{
    font-style: normal;
    font-weight: 400;
    font-size: 12px;
@@ -174,7 +174,7 @@ line-height: 18px;
    margin-bottom: 12px;
    letter-spacing: 2px;
 }
-.place__website_link{
+.place__website-link{
 text-decoration: none;
 font-style: normal;
 font-weight: 400;
@@ -184,7 +184,7 @@ color: white;
 text-decoration-line: underline;
 opacity: 1;
 }
-.place__website_link:hover{
+.place__website-link:hover{
    opacity: .7;
 }
 .place__image{
