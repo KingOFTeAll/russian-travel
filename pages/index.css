@@ -8,6 +8,7 @@
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__baikal/cover__baikal.css);
+
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 
@@ -49,5 +50,3 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__list/places__list.css);
-
-

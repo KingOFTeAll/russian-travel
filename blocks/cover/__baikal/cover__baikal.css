@@ -1,11 +1,11 @@
-.cover__baikal{
+.cover__baikal {
    text-decoration: none;
-   color: white;
+   color: #fff;
    box-sizing: border-box;
    background-image: url(../../../images/cover-trains.jpg);
-   background-color:#2A2C2F;
+   background-color: #2A2C2F;
    background-blend-mode: exclusion;
-   background-size: 100%;
+   background-size: cover;
    background-position: center;
    display: flex;
    flex-direction: column;
@@ -16,38 +16,43 @@
    min-height: 740px;
    max-height: 924.8px;
 }
-.cover__baikal:hover ::before{
+
+.cover__baikal:hover ::before {
    content: '';
    opacity: .3;
-   background:#2A2C2F;
+   background: #2A2C2F;
    position: absolute;
-   top: 0%;
-   left: 0%;;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
    z-index: -1;
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px){
-   .cover__baikal{
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+   .cover__baikal {
       width: 100%;
       min-height: 640px;
    }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px){
-.cover__baikal{
-width: 100%;
-min-height: 480px;
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+   .cover__baikal {
+      width: 100%;
+      min-height: 480px;
    }
 }
-@media screen and (min-width: 320px) and (max-width: 767px){
-.cover__baikal{
-   width: 100%;
-   min-height: 200px;
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+   .cover__baikal {
+      width: 100%;
+      min-height: 200px;
+   }
 }
-}
-@media screen and (min-width: 1600px){
-.cover__baikal{
+
+@media screen and (min-width: 1600px) {
+   .cover__baikal {
       margin: 92px auto;
    }
 }
