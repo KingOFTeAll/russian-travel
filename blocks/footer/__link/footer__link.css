@@ -4,7 +4,7 @@
    margin-right: 18px;
    opacity: 1;
 }
-.footer__link:last-child{margin: 0;}
+
 .footer__link:hover{
    opacity: .7;
 }
