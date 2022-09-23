@@ -3,7 +3,6 @@
    color: #fff;
    box-sizing: border-box;
    background-image: url(../../../images/cover-trains.jpg);
-   background-color: #2A2C2F;
    background-blend-mode: exclusion;
    background-size: cover;
    background-position: center;
@@ -14,7 +13,6 @@
    position: relative;
    z-index: 1;
    min-height: 740px;
-   max-height: 924.8px;
 }
 
 .cover__baikal:hover ::before {
