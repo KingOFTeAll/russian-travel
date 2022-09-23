@@ -1,34 +1,12 @@
-.place__website{
+.place__website {
    margin: 0;
    align-self: end;
- 
 }
-.place__website-heading{
-   font-style: normal;
-   font-weight: 400;
-   font-size: 12px;
-   line-height: 1;
-   margin: 0;
-   margin-bottom: 12px;
-   letter-spacing: 2px;
-}
-.place__website-link{
-text-decoration: none;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 122%;
-color: white;
-text-decoration-line: underline;
-opacity: 1;
-}
-.place__website-link:hover{
-   opacity: .7;
-}
-@media screen and (min-width: 320px) and (max-width: 767px){
-.place__website{
-   width: 90%;
-   margin: 0 auto;
-   align-self: start;
-}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+   .place__website {
+      width: 90%;
+      margin: 0 auto;
+      align-self: start;
+   }
 }

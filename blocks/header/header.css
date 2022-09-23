@@ -1,5 +1,6 @@
-.header{
+.header {
    max-height: 52px;
+   /* Если не ограничить высоту то она уедет.Сейчас она плавно увеличивается на отрезе 320 - 768, если убрать верхнюю границу максимума, она продолжит расти*/
    min-height: 42px;
    height: 6.77vw;
    width: 92.5%;
@@ -7,4 +8,16 @@
    padding: 0;
    display: flex;
    justify-content: space-between;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+   .header {
+      width: 90.625%;
+   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+   .header {
+      width: 90%;
+   }
 }
