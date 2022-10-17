@@ -52,3 +52,5 @@
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__list/places__list.css);
+
+@import url(../blocks/background-color/background-color.css)
