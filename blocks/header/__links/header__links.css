@@ -4,3 +4,9 @@
    padding: 0;
    display: flex;
 }
+
+@media screen and (max-width: 767px) {
+   .header__links{
+      margin: 14px 0 8px;
+   }
+}

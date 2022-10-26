@@ -1,6 +1,6 @@
 .places {
    list-style: none;
-   width: 984px;
+   max-width: 984px;
    margin: 0 auto;
    padding: 0;
    box-sizing: border-box;
@@ -8,19 +8,19 @@
 
 @media screen and (max-width: 1279px) {
    .places {
-      width: 928px;
+      max-width: 928px;
    }
 }
 
 @media screen and (max-width: 1023px) {
    .places {
-      width: 720px;
+      max-width: 720px;
    }
 }
 
 @media screen and (max-width: 767px) {
    .places {
-      width: 100%;
+      max-width: 100%;
    }
 
 }
